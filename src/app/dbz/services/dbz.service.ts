@@ -15,6 +15,7 @@ export class DbzService {
     },
   ];
 
+  /* se autoejecuta */
   get personajes(): Personaje[] {
     return [...this._personajes];
   }
